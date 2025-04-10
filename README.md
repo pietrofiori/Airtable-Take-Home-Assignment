@@ -23,7 +23,29 @@ A responsive and interactive timeline component that allows users to view, creat
 
 ## 🧪 How to Run Locally
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/timeline-scheduler.git
-   cd timeline-scheduler
+- **pnpm install**
+- **pnpm run dev**
+
+## 🧱 About my arch
+
+- **I designed a simple, scalable file structure focused on maintainability and separation of concerns**
+
+- `components/`: folder for **global reusable components** that could be shared across multiple screens.
+
+- `constants/`: stores **static values**, like the sample data used in the timeline.
+
+- `routes/`: responsible for **routing configuration**, if the app grows and needs multiple pages.
+
+- `screens/TimeLine/`: feature-specific folder that **encapsulates everything related to the timeline**, making the feature isolated and easy to maintain.
+
+  - `components/`: contains **timeline-only components**, like the Header, Body, and Modal used to display and edit events.
+
+  - `hooks/`: stores **timeline-specific hooks**, such as state handling, slider logic, and date calculation.
+
+- `theme/`: holds the **styled-components theme configuration**, including spacing, colors, and typography.
+
+- `types/`: defines **TypeScript interfaces and types**, making the app strictly typed and safe to scale.
+
+- `utils/`: contains **helper functions**, like functions for date formatting or other reusable logic.
+
+- `App.tsx`: the **entry point** of the application, where everything is mounted.
