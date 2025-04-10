@@ -1,6 +1,6 @@
 # 📅 Timeline Scheduler
 
-A responsive and interactive timeline component that allows users to view, create, and edit events within a horizontally scrollable date grid — inspired by Google Calendar and Dropbox Paper timelines.
+A responsive and interactive timeline component that allows users to view, create, and edit events within a horizontally scrollable date grid
 
 ## 🚀 Features
 
